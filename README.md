@@ -49,3 +49,12 @@ sweet_treats_bakery/
 ├── products.html (Products)
 ├── enquiry.html (Enquiry Form)
 └── contact.html (Contact Us)
+---
+
+## Changelog
+* **v1.1.0 (Part 2 - Feedback & Corrections):**
+  * Reviewed feedback from Part 1 submission.
+  * Verified all HTML5 structural tags and relative image pathways across all 5 pages (`index.html`, `about.html`, `products.html`, `enquiry.html`, `contact.html`).
+  * Updated `README.md` with detailed Part 2 changelog entries to log project iterations accurately.
+* **v1.0.0 (Part 1 - Initial Submission):** 
+  * Initial commit — Created directory structure (`css/`, `js/`, `images/`), added 5 primary HTML pages with semantic markup, global navigation bar, and integrated `README.md`.
