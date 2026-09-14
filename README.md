@@ -49,8 +49,7 @@ sweet_treats_bakery/
 ├── products.html (Products)
 ├── enquiry.html (Enquiry Form)
 └── contact.html (Contact Us)
----
-
+'''
 ## Changelog
 * **v1.1.0 (Part 2 - Feedback & Corrections):**
   * Reviewed feedback from Part 1 submission.
