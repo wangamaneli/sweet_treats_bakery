@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sweet Treats Bakery - Home</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
@@ -26,7 +26,13 @@
     <main>
         <section>
             <h2>Welcome to Sweet Treats Bakery</h2>
-            <img src="images/hero.jpg" alt="Freshly baked breads and pastries" width="600">
+            <picture>
+    <source media="(max-width: 768px)" srcset="../images/hero.jpg">
+    <img src="../images/hero.jpg" 
+         srcset="../images/hero.jpg 800w, ../images/hero.jpg 1200w" 
+         sizes="(max-width: 768px) 100vw, 1200px" 
+         alt="Freshly baked breads and pastries at Sweet Treats Bakery">
+</picture>
             <p>At Sweet Treats Bakery, we specialize in artisan breads, delicate pastries, and custom cakes for every occasion.</p>
             <p><a href="products.html">View Our Menu</a> | <a href="enquiry.html">Order a Custom Cake</a></p>
         </section>

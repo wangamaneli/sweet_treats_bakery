@@ -57,3 +57,25 @@ sweet_treats_bakery/
   * Updated `README.md` with detailed Part 2 changelog entries to log project iterations accurately.
 * **v1.0.0 (Part 1 - Initial Submission):** 
   * Initial commit — Created directory structure (`css/`, `js/`, `images/`), added 5 primary HTML pages with semantic markup, global navigation bar, and integrated `README.md`.
+## Part 2 Updates
+
+### Responsive Design & Image Optimization
+* Added media queries for tablet (`1024px`) and mobile (`768px`) breakpoints.
+* Converted fixed typography and layout padding to relative `rem` units and fluid percentages.
+* Implemented HTML `<picture>` elements with `srcset` and `sizes` attributes for responsive image delivery.
+
+### Testing Evidence
+* **Desktop Viewport (1280px+):** Multi-column layout with horizontal navigation bar.
+* **Tablet Viewport (800px):** Two-column adaptive grid.
+* **Mobile Viewport (400px):** Single-column stacked layout with full-width touch navigation targets.
+
+## Changelog
+* **v2.0 (Part 2 Completion):**
+  * Updated `index.html` with `<picture>` hero elements.
+  * Corrected image path references from `../images/` to `images/`.
+  * Added responsive `@media` breakpoints and relative unit scaling rules in `css/style.css`.
+  * Applied feedback edits from Part 1.
+
+## References
+* MDN Web Docs. 2026. *Responsive design*. Available at: <https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design> [Accessed 17 September 2026].
+* W3C. 2026. *HTML Responsive Images*. Available at: <https://www.w3.org/TR/html-picture-element/> [Accessed 17 September 2026].
