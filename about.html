@@ -43,6 +43,29 @@
     <footer>
         <p>&copy; 2026 Sweet Treats Bakery. All rights reserved.</p>
     </footer>
-
+<!-- Interactive Accordion Section for FAQ -->
+<section class="faq-section">
+    <h2>Frequently Asked Questions</h2>
+    <div class="accordion-item">
+        <button class="accordion-header">Do you make custom birthday cakes?</button>
+        <div class="accordion-content">
+            <p>Yes! We specialize in custom cakes for birthdays, weddings, and special events. Please use our Enquiry form to submit your design ideas.</p>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <button class="accordion-header">Are gluten-free options available?</button>
+        <div class="accordion-content">
+            <p>We offer a selection of daily gluten-free pastries and vegan treats. Check our Products page for details.</p>
+        </div>
+    </div>
+</section>
+    <script>
+    document.querySelectorAll('.accordion-header').forEach(button => {
+        button.addEventListener('click', () => {
+            const content = button.nextElementSibling;
+            content.style.display = content.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+</script>
 </body>
 </html>
