@@ -4,7 +4,7 @@
 * **Student Name:** Wanga Maneli
 * **Student ID / Number:** st10459296
 * **Module:** Web Development / IT
-* **Submission:** Part 2
+* **Submission:** Part 3
 
 ---
 
