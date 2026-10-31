@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Disallow administrative or private directories if added in the future
+Disallow: /admin/
+
+Sitemap: https://wangamaneli.github.io/sweet_treats_bakery/sitemap.xml
