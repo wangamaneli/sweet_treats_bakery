@@ -258,3 +258,22 @@ img {
     border-left: 3px solid #d4a373;
     margin-bottom: 0.5rem;
 }
+/* Dynamic Search Bar Styling */
+.search-container {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+#productSearch {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #d4a373;
+    border-radius: 6px;
+    outline: none;
+}
+
+#productSearch:focus {
+    border-color: #5c4033;
+}
