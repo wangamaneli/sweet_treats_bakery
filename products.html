@@ -21,28 +21,50 @@
         </nav>
     </header>
 
-    <main>
-        <h2>Our Bakery Catalog</h2>
-        
-        <section>
+   <main>
+    <h2>Our Bakery Catalog</h2>
+
+    <!-- Search Filter Input -->
+    <div class="search-container">
+        <input type="text" id="productSearch" placeholder="Search bakery items..." onkeyup="filterProducts()">
+    </div>
+
+    <div id="productList">
+        <section class="product-item">
             <h3>Artisan Breads</h3>
             <p>Sourdough, Baguettes, Whole Grain Loaves</p>
         </section>
 
-        <section>
+        <section class="product-item">
             <h3>Sweet Pastries</h3>
             <p>Croissants, Chocolate Danishes, Cinnamon Rolls</p>
         </section>
 
-        <section>
+        <section class="product-item">
             <h3>Custom Cakes</h3>
             <p>Birthday Cakes, Wedding Cakes, Celebration Cupcakes</p>
         </section>
-    </main>
+    </div>
+</main>
 
     <footer>
         <p>&copy; 2026 Sweet Treats Bakery. All rights reserved.</p>
     </footer>
+<!-- Dynamic Search Filter Script -->
+<script>
+    function filterProducts() {
+        const input = document.getElementById('productSearch').value.toLowerCase();
+        const items = document.querySelectorAll('.product-item');
 
+        items.forEach(item => {
+            const text = item.textContent.toLowerCase();
+            if (text.includes(input)) {
+                item.style.display = 'block';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    }
+</script>
 </body>
 </html>
