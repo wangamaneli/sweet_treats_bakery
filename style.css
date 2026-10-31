@@ -226,3 +226,35 @@ img {
     height: auto;
     display: block;
 } 
+/* Interactive FAQ Accordion Styles */
+.faq-section {
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 0 1rem;
+}
+.accordion-header {
+    background-color: #f7f1eb;
+    color: #5c4033;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+.accordion-header:hover {
+    background-color: #e8d7cc;
+}
+.accordion-content {
+    padding: 0 1rem;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    border-left: 3px solid #d4a373;
+    margin-bottom: 0.5rem;
+}
